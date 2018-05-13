@@ -2,7 +2,11 @@
 
 End-to-end testing with Selenium, Page Object Pattern, Parallel Test with Multiple Browsers in Docker VM, Java, Maven, TestNG
 
-## For Local Run
+## For Local Run Preconditions and Executions
+1)Please copy "insider.properties" file which is in project file to your local path propFilePath = "C:/insider.properties". You can change this path in Commons.java.
+** Email and Password reading in this file. Email and Password should not be in code. Because of security. 
+2)Default Browser is Chrome in BaseTest.java, It can be changed with other browsers.
+3)Run TestNG.xml as TestNGSuit
 
 ## Docker Installation and Running
 
