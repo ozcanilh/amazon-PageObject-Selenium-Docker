@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" configfailurepolicy="continue" preserve-order="true"> <!-- set thread count to more than 1 to run more instances -->
+  
+  <test name="ChromeTest" preserve-order="true">
+  <parameter name="browser" value="Chrome" />
+	
+    <classes>	   
+        <class name="com.insider.test.amazon.test.AmazonTest" />
+    </classes>
+  </test>
+ </suite>
