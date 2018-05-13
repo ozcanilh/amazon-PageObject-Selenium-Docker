@@ -19,7 +19,7 @@ Chrome and Firefox hub link to node .
 Session and Instance of hub set to 5
 Ports for Browsers: Chrome: 5900 Firefox: 5901 settings are available
 
-### For Docker Run
+### For Docker Run Preconditions and Executions
 
 * BaseTest.java config for running on chrome browser and local. 
 * BaseTestDockerConfig.java config for running on MultipleBrowser and Parallel Test in Docker. 
